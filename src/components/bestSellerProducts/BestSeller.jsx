@@ -63,9 +63,9 @@ export default function BestSeller() {
             <h1>Data Not found</h1>
           )}
         </div>
-        <a to="/" className="All-Btn mb-16" href="">
+        <Link to="/ProductListing" className="All-Btn mb-16" href="">
           Shop All Furniture
-        </a>
+        </Link>
       </section>
     </>
   );
